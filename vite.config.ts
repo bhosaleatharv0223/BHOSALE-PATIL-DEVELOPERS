@@ -20,7 +20,7 @@ export default defineConfig({
   assetsInclude: ['**/*.svg', '**/*.csv'],
 
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     sourcemap: false,
     minify: false,
   },
