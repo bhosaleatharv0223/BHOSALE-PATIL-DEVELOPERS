@@ -3,8 +3,8 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // GitHub repository name - update this to match your repo
-  base: '/BHOSALE-PATIL-DEVELOPERS/',
+  // Base path - use root for Vercel deployment
+  base: '/',
 
   plugins: [
     react(),
