@@ -1,0 +1,13 @@
+.git
+.gitignore
+README.md
+.env
+.env.local
+src
+guidelines
+public
+*.md
+.DS_Store
+Thumbs.db
+node_modules/.vite
+node_modules/.bin
