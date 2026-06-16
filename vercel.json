@@ -1,6 +1,7 @@
 {
-  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "docs",
+  "installCommand": "npm install",
   "nodeVersion": "18.x",
   "env": {
     "NODE_ENV": "production"
