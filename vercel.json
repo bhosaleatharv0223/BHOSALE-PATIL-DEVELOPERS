@@ -1,8 +1,6 @@
 {
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "npm run vercel-build",
   "outputDirectory": "docs",
-  "installCommand": "npm install",
-  "nodeVersion": "18.x",
   "env": {
     "NODE_ENV": "production"
   },
