@@ -10263,7 +10263,7 @@ function RotatingText() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-12 flex items-center", style: { minWidth: "280px" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
     "span",
     {
-      className: "font-bold text-2xl md:text-3xl",
+      className: "font-bold text-lg sm:text-2xl md:text-3xl",
       style: {
         color: rotatingTexts[index].color,
         fontFamily: "Sora, sans-serif",
@@ -10338,29 +10338,29 @@ const plans$1 = [
 ];
 function HomePage() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { background: "#FFF8E7" }, children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "pt-16 sm:pt-24 md:pt-32 pb-8 sm:pb-16 md:pb-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold mb-6 sm:mb-8 border", style: { borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold mb-4 sm:mb-6 md:mb-8 border", style: { borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }, children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { size: 12 }),
           "Premium IT Solutions — India"
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight sm:leading-none tracking-tight mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight tracking-tight mb-3 sm:mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: [
           "We Design.",
           /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden sm:block" }),
           "We Develop.",
           /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden sm:block" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#C9A24B" }, children: "We Deliver." })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-base sm:text-lg md:text-xl font-semibold mt-4 mb-6", style: { color: "#6B5F45", fontFamily: "Sora, sans-serif" }, children: "Make Your Business Global with Bhosale Tech Solution" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm sm:text-base md:text-lg font-semibold mt-3 sm:mt-4 mb-4 sm:mb-6", style: { color: "#6B5F45", fontFamily: "Sora, sans-serif" }, children: "Make Your Business Global with Bhosale Tech Solution" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(RotatingText, {}),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 mt-10", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-3 sm:gap-4 mt-8 sm:mt-10 w-full sm:w-auto", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "a",
             {
               href: "https://wa.me/919860810865?text=Hi%2C%20I%20want%20to%20book%20a%20free%20call",
               target: "_blank",
               rel: "noreferrer",
-              className: "inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base transition-all hover:scale-105 min-h-12",
+              className: "w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base transition-all hover:scale-105 min-h-12",
               style: { background: "#1A1A1A", color: "#FFF8E7", fontFamily: "Sora, sans-serif" },
               children: [
                 "Book Free Call",
@@ -10372,14 +10372,14 @@ function HomePage() {
             Link,
             {
               to: "/services",
-              className: "inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base border-2 transition-all hover:scale-105 min-h-12",
+              className: "w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base border-2 transition-all hover:scale-105 min-h-12",
               style: { borderColor: "#1A1A1A", color: "#1A1A1A", fontFamily: "Sora, sans-serif" },
               children: "View Services"
             }
           )
         ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative flex items-center justify-center mt-8 lg:mt-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full max-w-sm h-72 sm:h-80 md:h-96 rounded-3xl relative overflow-hidden", style: { background: "#FBF1DD", border: "1px solid #E5DCC8" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { width: "100%", height: "100%", viewBox: "0 0 400 350", fill: "none", preserveAspectRatio: "xMidYMid slice", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative flex items-center justify-center mt-8 lg:mt-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm h-64 sm:h-72 md:h-80 lg:h-96 rounded-3xl relative overflow-hidden", style: { background: "#FBF1DD", border: "1px solid #E5DCC8" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { width: "100%", height: "100%", viewBox: "0 0 400 350", fill: "none", preserveAspectRatio: "xMidYMid slice", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "200", cy: "175", r: "80", stroke: "#C9A24B", strokeWidth: "1.5", strokeDasharray: "6 4", opacity: "0.6" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "200", cy: "175", r: "120", stroke: "#E5DCC8", strokeWidth: "1", strokeDasharray: "4 6", opacity: "0.5" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "200", cy: "175", r: "160", stroke: "#E5DCC8", strokeWidth: "0.5", strokeDasharray: "3 8", opacity: "0.3" }),
@@ -10401,80 +10401,80 @@ function HomePage() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("text", { x: "318", y: "230", fill: "#6B5F45", fontSize: "9", fontFamily: "Inter, sans-serif", children: "Mobile" })
       ] }) }) })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { style: { background: "#1A1A1A" }, className: "py-8 md:py-12 px-4 md:px-6 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-8", children: ["⚡ Fast Delivery", "💰 Cost-Effective", "🤖 AI-Driven", "🏦 Fintech Exp.", "✅ 100% Happy"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs sm:text-sm font-semibold tracking-wide text-center", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item }, item)) }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { style: { background: "#1A1A1A" }, className: "py-6 sm:py-8 md:py-12 px-4 sm:px-6 md:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-8", children: ["⚡ Fast Delivery", "💰 Cost-Effective", "🤖 AI-Driven", "🏦 Fintech Exp.", "✅ 100% Happy"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs sm:text-sm font-semibold tracking-wide text-center", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item }, item)) }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(ScrollReveal, { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl sm:text-3xl md:text-4xl font-black text-center mb-3 sm:mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Core Motto" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-8 sm:mb-12 text-sm sm:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Three principles that drive every project we touch." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-2 sm:mb-3 md:mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Core Motto" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-6 sm:mb-8 md:mb-12 text-xs sm:text-sm md:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Three principles that drive every project we touch." })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6", children: [
         { icon: "⏱️", title: "Less Time", sub: "Faster Delivery", desc: "We deliver in record time using structured rapid-development workflows." },
         { icon: "💸", title: "Less Cost", sub: "Better Value", desc: "Premium quality without premium prices — optimal resource allocation." },
         { icon: "📈", title: "Maximum Output", sub: "More Results", desc: "Every rupee invested delivers measurable ROI and business growth." }
-      ].map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-6 sm:p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-3xl sm:text-4xl mb-4", children: item.icon }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg sm:text-xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: item.title }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm font-semibold mb-3", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item.sub }),
+      ].map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-5 sm:p-6 md:p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl sm:text-3xl md:text-4xl mb-3 sm:mb-4", children: item.icon }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base sm:text-lg md:text-xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: item.title }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm font-semibold mb-2 sm:mb-3", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item.sub }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: item.desc })
       ] }) }, item.title)) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-8 sm:mb-12", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl sm:text-3xl md:text-4xl font-black mb-2 sm:mb-3", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Services" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm sm:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Everything your business needs to grow digitally — under one roof." })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-6 sm:mb-8 md:mb-12", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black mb-2 sm:mb-3", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Services" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm md:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Everything your business needs to grow digitally — under one roof." })
       ] }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6", children: services$2.map((s, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 80, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: s.to, className: "group block rounded-2xl p-6 sm:p-7 border transition-all hover:shadow-xl hover:scale-[1.02] h-full", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-all group-hover:rotate-6", style: { background: "#1A1A1A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(s.icon, { size: 22, style: { color: "#C9A24B" } }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base sm:text-lg font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: s.title }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm mb-4", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: s.desc }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6", children: services$2.map((s, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 80, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: s.to, className: "group block rounded-2xl p-5 sm:p-6 md:p-7 border transition-all hover:shadow-xl hover:scale-[1.02] h-full", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center mb-3 sm:mb-5 transition-all group-hover:rotate-6", style: { background: "#1A1A1A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(s.icon, { size: 20, style: { color: "#C9A24B" } }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-sm sm:text-base md:text-lg font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: s.title }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm mb-3 sm:mb-4", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: s.desc }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "inline-flex items-center gap-1 text-xs sm:text-sm font-semibold", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: [
           "Learn More ",
           /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { size: 14 })
         ] })
       ] }) }, s.title)) })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 px-4 md:px-8", style: { background: "#1A1A1A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8", style: { background: "#1A1A1A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(CounterStat, { end: 50, suffix: "+", label: "Projects Delivered" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(CounterStat, { end: 100, suffix: "%", label: "Client Satisfaction" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(CounterStat, { end: 12, suffix: "+", label: "Service Categories" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(CounterStat, { end: 3, suffix: "x", label: "Faster Than Average" })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-20 px-4 md:px-8 max-w-7xl mx-auto", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl md:text-4xl font-black text-center mb-12", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Why Choose Bhosale Tech Solution?" }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6", children: whyUs.map((w, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 100, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-6 border h-full hover:shadow-lg transition-all", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 rounded-lg flex items-center justify-center mb-4", style: { background: "#C9A24B" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(w.icon, { size: 18, style: { color: "#1A1A1A" } }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: w.title }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: w.desc })
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-6 sm:mb-8 md:mb-12", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Why Choose Bhosale Tech Solution?" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6", children: whyUs.map((w, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 100, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-5 sm:p-6 border h-full hover:shadow-lg transition-all", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-9 h-9 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center mb-3 sm:mb-4", style: { background: "#C9A24B" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(w.icon, { size: 16, style: { color: "#1A1A1A" } }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-sm sm:text-base font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: w.title }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: w.desc })
       ] }) }, w.title)) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 px-4 md:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(ScrollReveal, { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl md:text-4xl font-black text-center mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our 6-Step Workflow" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-12", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "From problem to production — faster than anyone else." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-2 sm:mb-3 md:mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our 6-Step Workflow" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-6 sm:mb-8 md:mb-12 text-xs sm:text-sm md:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "From problem to production — faster than anyone else." })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4", children: workflowSteps.map((step, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 80, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-5 border text-center h-full", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-black mb-2", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: step.num }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "text-sm font-bold mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: step.title }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4", children: workflowSteps.map((step, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 80, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-4 sm:p-5 border text-center h-full", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xl sm:text-2xl font-black mb-2", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: step.num }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "text-xs sm:text-sm font-bold mb-1 sm:mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: step.title }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: step.desc })
       ] }) }, step.num)) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/workflow", className: "inline-flex items-center gap-2 text-sm font-semibold", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-6 sm:mt-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/workflow", className: "inline-flex items-center gap-2 text-xs sm:text-sm font-semibold", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: [
         "See Full Workflow ",
         /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { size: 14 })
       ] }) })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-20 px-4 md:px-8 max-w-7xl mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(ScrollReveal, { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl md:text-4xl font-black text-center mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Transparent Pricing" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-12", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "No hidden costs. Pay for real value delivered." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-2 sm:mb-3 md:mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Transparent Pricing" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-6 sm:mb-8 md:mb-12 text-xs sm:text-sm md:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "No hidden costs. Pay for real value delivered." })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-6", children: plans$1.map((plan, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 100, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-8 border relative h-full flex flex-col", style: { background: "#FBF1DD", borderColor: plan.popular ? "#C9A24B" : "#E5DCC8", borderWidth: plan.popular ? "2px" : "1px" }, children: [
-        plan.popular && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-bold", style: { background: "#C9A24B", color: "#111111", fontFamily: "Sora, sans-serif" }, children: "Most Popular" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-3 h-3 rounded-full mb-4", style: { background: plan.color } }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: plan.name }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold mb-3 uppercase tracking-wide", style: { color: plan.color, fontFamily: "Sora, sans-serif" }, children: plan.label }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-2xl font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: plan.price }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm mb-6", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: plan.desc }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2 mb-8 flex-1", children: plan.features.map((f) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2 text-sm", style: { color: "#111111", fontFamily: "Inter, sans-serif" }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6", children: plans$1.map((plan, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 100, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-6 sm:p-7 md:p-8 border relative h-full flex flex-col", style: { background: "#FBF1DD", borderColor: plan.popular ? "#C9A24B" : "#E5DCC8", borderWidth: plan.popular ? "2px" : "1px" }, children: [
+        plan.popular && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -top-3 left-1/2 -translate-x-1/2 px-3 sm:px-4 py-1 rounded-full text-xs font-bold", style: { background: "#C9A24B", color: "#111111", fontFamily: "Sora, sans-serif" }, children: "Most Popular" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-3 h-3 rounded-full mb-3 sm:mb-4", style: { background: plan.color } }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg sm:text-xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: plan.name }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold mb-2 sm:mb-3 uppercase tracking-wide", style: { color: plan.color, fontFamily: "Sora, sans-serif" }, children: plan.label }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl sm:text-2xl font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: plan.price }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm mb-4 sm:mb-6", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: plan.desc }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2 mb-6 sm:mb-8 flex-1", children: plan.features.map((f) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2 text-xs sm:text-sm", style: { color: "#111111", fontFamily: "Inter, sans-serif" }, children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheckBig, { size: 14, style: { color: "#C9A24B", flexShrink: 0 } }),
           f
         ] }, f)) }),
@@ -10484,57 +10484,57 @@ function HomePage() {
             href: "https://wa.me/919860810865",
             target: "_blank",
             rel: "noreferrer",
-            className: "block text-center px-6 py-3 rounded-full font-bold text-sm transition-all hover:scale-105",
+            className: "block text-center w-full px-6 py-2.5 sm:py-3 rounded-full font-bold text-xs sm:text-sm transition-all hover:scale-105",
             style: { background: "#1A1A1A", color: "#FFF8E7", fontFamily: "Sora, sans-serif" },
             children: "Get Started"
           }
         )
       ] }) }, plan.name)) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/pricing", className: "inline-flex items-center gap-2 text-sm font-semibold", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-6 sm:mt-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/pricing", className: "inline-flex items-center gap-2 text-xs sm:text-sm font-semibold", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: [
         "View Full Pricing Details ",
         /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { size: 14 })
       ] }) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 px-4 md:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-4xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-3xl p-10 border", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row gap-8 items-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-28 h-28 rounded-2xl flex-shrink-0 flex items-center justify-center text-4xl font-black", style: { background: "#1A1A1A", color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "AB" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xs font-bold tracking-widest uppercase mb-2", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Founder & Lead Developer" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-2xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Atharv Bhosale" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm mb-3", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Computer Engineering — Sinhgad College of Engineering" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm mb-4", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Experienced freelance developer specializing in large-scale fintech applications, AI automation systems, and scalable architecture — delivering efficiency-first engineering solutions." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2", children: ["Java", "React", "Spring Boot", "AI Automation", "Machine Learning", "Agentic AI"].map((skill) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 rounded-full text-xs font-semibold", style: { background: "#F0E8D0", color: "#1A1A1A", fontFamily: "Sora, sans-serif", border: "1px solid #E5DCC8" }, children: skill }, skill)) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-4xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-3xl p-6 sm:p-8 md:p-10 border", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row gap-6 sm:gap-8 items-start md:items-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-24 h-24 sm:w-28 sm:h-28 rounded-2xl flex-shrink-0 flex items-center justify-center text-3xl sm:text-4xl font-black", style: { background: "#1A1A1A", color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "AB" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 w-full", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xs font-bold tracking-widest uppercase mb-1 sm:mb-2", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Founder & Lead Developer" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg sm:text-xl md:text-2xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Atharv Bhosale" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm mb-2 sm:mb-3", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Computer Engineering — Sinhgad College of Engineering" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm mb-3 sm:mb-4", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Experienced freelance developer specializing in large-scale fintech applications, AI automation systems, and scalable architecture — delivering efficiency-first engineering solutions." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2", children: ["Java", "React", "Spring Boot", "AI Automation", "Machine Learning", "Agentic AI"].map((skill) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-2 sm:px-3 py-1 rounded-full text-xs font-semibold", style: { background: "#F0E8D0", color: "#1A1A1A", fontFamily: "Sora, sans-serif", border: "1px solid #E5DCC8" }, children: skill }, skill)) })
       ] })
     ] }) }) }) }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-20 px-4 md:px-8 max-w-7xl mx-auto", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl md:text-4xl font-black text-center mb-12", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "What Clients Say" }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-6", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-6 sm:mb-8 md:mb-12", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "What Clients Say" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6", children: [
         { name: "Rajesh Kumar", role: "CEO, FinanceFlow", quote: "Atharv delivered our fintech dashboard in record time. The AI automation saved us 40 hours per week." },
         { name: "Priya Sharma", role: "Founder, ShopEase", quote: "The website and WhatsApp automation completely transformed our customer handling. 5 stars!" },
         { name: "Amit Desai", role: "COO, TechVentures", quote: "The combo package was exactly what we needed. One system for everything. Worth every rupee." }
-      ].map((t, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 100, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-7 border h-full", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-1 mb-4", children: Array(5).fill(0).map((_, j) => /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { size: 14, style: { color: "#C9A24B", fill: "#C9A24B" } }, j)) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm mb-6 italic", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: [
+      ].map((t, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 100, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-5 sm:p-6 md:p-7 border h-full", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-1 mb-3 sm:mb-4", children: Array(5).fill(0).map((_, j) => /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { size: 13, style: { color: "#C9A24B", fill: "#C9A24B" } }, j)) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs sm:text-sm mb-4 sm:mb-6 italic", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: [
           '"',
           t.quote,
           '"'
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-bold", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: t.name }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm font-bold", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: t.name }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: t.role })
         ] })
       ] }) }, t.name)) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 px-4 md:px-8", style: { background: "#1A1A1A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-3xl mx-auto text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl md:text-5xl font-black mb-4", style: { color: "#FFF8E7", fontFamily: "Sora, sans-serif" }, children: "Ready to Scale Your Business?" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-base mb-10", style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" }, children: "Let's build something fast, efficient, and extraordinary together." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap justify-center gap-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8", style: { background: "#1A1A1A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-3xl mx-auto text-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-3 sm:mb-4", style: { color: "#FFF8E7", fontFamily: "Sora, sans-serif" }, children: "Ready to Scale Your Business?" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm md:text-base mb-6 sm:mb-8 md:mb-10", style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" }, children: "Let's build something fast, efficient, and extraordinary together." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row sm:justify-center gap-3 sm:gap-4", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "a",
           {
             href: "https://wa.me/919860810865",
             target: "_blank",
             rel: "noreferrer",
-            className: "inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-base transition-all hover:scale-105",
+            className: "w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-xs sm:text-sm md:text-base transition-all hover:scale-105",
             style: { background: "#25D366", color: "#fff", fontFamily: "Sora, sans-serif" },
             children: "WhatsApp Now"
           }
@@ -10543,7 +10543,7 @@ function HomePage() {
           "a",
           {
             href: "mailto:bhosaleatharv8765@gmail.com",
-            className: "inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-base border-2 transition-all hover:scale-105",
+            className: "w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-xs sm:text-sm md:text-base border-2 transition-all hover:scale-105",
             style: { borderColor: "#C9A24B", color: "#C9A24B", fontFamily: "Sora, sans-serif" },
             children: "Send Email"
           }

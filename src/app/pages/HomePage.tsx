@@ -32,7 +32,7 @@ function RotatingText() {
   return (
     <div className="h-12 flex items-center" style={{ minWidth: "280px" }}>
       <span
-        className="font-bold text-2xl md:text-3xl"
+        className="font-bold text-lg sm:text-2xl md:text-3xl"
         style={{
           color: rotatingTexts[index].color,
           fontFamily: "Sora, sans-serif",
@@ -118,27 +118,27 @@ export default function HomePage() {
   return (
     <div style={{ background: "#FFF8E7" }}>
       {/* Hero */}
-      <section className="pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+      <section className="pt-16 sm:pt-24 md:pt-32 pb-8 sm:pb-16 md:pb-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold mb-6 sm:mb-8 border" style={{ borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }}>
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold mb-4 sm:mb-6 md:mb-8 border" style={{ borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }}>
               <Zap size={12} />
               Premium IT Solutions — India
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight sm:leading-none tracking-tight mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight tracking-tight mb-3 sm:mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
               We Design.<br className="hidden sm:block" />We Develop.<br className="hidden sm:block" />
               <span style={{ color: "#C9A24B" }}>We Deliver.</span>
             </h1>
-            <p className="text-base sm:text-lg md:text-xl font-semibold mt-4 mb-6" style={{ color: "#6B5F45", fontFamily: "Sora, sans-serif" }}>
+            <p className="text-sm sm:text-base md:text-lg font-semibold mt-3 sm:mt-4 mb-4 sm:mb-6" style={{ color: "#6B5F45", fontFamily: "Sora, sans-serif" }}>
               Make Your Business Global with Bhosale Tech Solution
             </p>
             <RotatingText />
-            <div className="flex flex-col sm:flex-row gap-4 mt-10">
+            <div className="flex flex-col gap-3 sm:gap-4 mt-8 sm:mt-10 w-full sm:w-auto">
               <a
                 href="https://wa.me/919860810865?text=Hi%2C%20I%20want%20to%20book%20a%20free%20call"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base transition-all hover:scale-105 min-h-12"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base transition-all hover:scale-105 min-h-12"
                 style={{ background: "#1A1A1A", color: "#FFF8E7", fontFamily: "Sora, sans-serif" }}
               >
                 Book Free Call
@@ -146,7 +146,7 @@ export default function HomePage() {
               </a>
               <Link
                 to="/services"
-                className="inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base border-2 transition-all hover:scale-105 min-h-12"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base border-2 transition-all hover:scale-105 min-h-12"
                 style={{ borderColor: "#1A1A1A", color: "#1A1A1A", fontFamily: "Sora, sans-serif" }}
               >
                 View Services
@@ -156,7 +156,7 @@ export default function HomePage() {
 
           {/* Right: abstract illustration */}
           <div className="relative flex items-center justify-center mt-8 lg:mt-0">
-            <div className="w-full max-w-sm h-72 sm:h-80 md:h-96 rounded-3xl relative overflow-hidden" style={{ background: "#FBF1DD", border: "1px solid #E5DCC8" }}>
+            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm h-64 sm:h-72 md:h-80 lg:h-96 rounded-3xl relative overflow-hidden" style={{ background: "#FBF1DD", border: "1px solid #E5DCC8" }}>
               {/* Abstract tech pattern */}
               <svg width="100%" height="100%" viewBox="0 0 400 350" fill="none" preserveAspectRatio="xMidYMid slice">
                 <circle cx="200" cy="175" r="80" stroke="#C9A24B" strokeWidth="1.5" strokeDasharray="6 4" opacity="0.6" />
@@ -187,8 +187,8 @@ export default function HomePage() {
       </section>
 
       {/* Trust Bar */}
-      <section style={{ background: "#1A1A1A" }} className="py-8 md:py-12 px-4 md:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-8">
+      <section style={{ background: "#1A1A1A" }} className="py-6 sm:py-8 md:py-12 px-4 sm:px-6 md:px-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-8">
           {["⚡ Fast Delivery", "💰 Cost-Effective", "🤖 AI-Driven", "🏦 Fintech Exp.", "✅ 100% Happy"].map((item) => (
             <span key={item} className="text-xs sm:text-sm font-semibold tracking-wide text-center" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{item}</span>
           ))}
@@ -196,24 +196,24 @@ export default function HomePage() {
       </section>
 
       {/* Core Motto */}
-      <section className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
         <ScrollReveal>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-center mb-3 sm:mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-2 sm:mb-3 md:mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
             Our Core Motto
           </h2>
-          <p className="text-center mb-8 sm:mb-12 text-sm sm:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Three principles that drive every project we touch.</p>
+          <p className="text-center mb-6 sm:mb-8 md:mb-12 text-xs sm:text-sm md:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Three principles that drive every project we touch.</p>
         </ScrollReveal>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
           {[
             { icon: "⏱️", title: "Less Time", sub: "Faster Delivery", desc: "We deliver in record time using structured rapid-development workflows." },
             { icon: "💸", title: "Less Cost", sub: "Better Value", desc: "Premium quality without premium prices — optimal resource allocation." },
             { icon: "📈", title: "Maximum Output", sub: "More Results", desc: "Every rupee invested delivers measurable ROI and business growth." },
           ].map((item, i) => (
             <ScrollReveal key={item.title} delay={i * 120}>
-              <div className="rounded-2xl p-6 sm:p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
-                <div className="text-3xl sm:text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-lg sm:text-xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{item.title}</h3>
-                <p className="text-xs sm:text-sm font-semibold mb-3" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{item.sub}</p>
+              <div className="rounded-2xl p-5 sm:p-6 md:p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
+                <div className="text-2xl sm:text-3xl md:text-4xl mb-3 sm:mb-4">{item.icon}</div>
+                <h3 className="text-base sm:text-lg md:text-xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{item.title}</h3>
+                <p className="text-xs sm:text-sm font-semibold mb-2 sm:mb-3" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{item.sub}</p>
                 <p className="text-xs sm:text-sm" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{item.desc}</p>
               </div>
             </ScrollReveal>
@@ -222,23 +222,23 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8" style={{ background: "#FBF1DD" }}>
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8" style={{ background: "#FBF1DD" }}>
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
-            <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-black mb-2 sm:mb-3" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>Our Services</h2>
-              <p className="text-sm sm:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Everything your business needs to grow digitally — under one roof.</p>
+            <div className="text-center mb-6 sm:mb-8 md:mb-12">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black mb-2 sm:mb-3" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>Our Services</h2>
+              <p className="text-xs sm:text-sm md:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Everything your business needs to grow digitally — under one roof.</p>
             </div>
           </ScrollReveal>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
             {services.map((s, i) => (
               <ScrollReveal key={s.title} delay={i * 80}>
-                <Link to={s.to} className="group block rounded-2xl p-6 sm:p-7 border transition-all hover:shadow-xl hover:scale-[1.02] h-full" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
-                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-all group-hover:rotate-6" style={{ background: "#1A1A1A" }}>
-                    <s.icon size={22} style={{ color: "#C9A24B" }} />
+                <Link to={s.to} className="group block rounded-2xl p-5 sm:p-6 md:p-7 border transition-all hover:shadow-xl hover:scale-[1.02] h-full" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center mb-3 sm:mb-5 transition-all group-hover:rotate-6" style={{ background: "#1A1A1A" }}>
+                    <s.icon size={20} style={{ color: "#C9A24B" }} />
                   </div>
-                  <h3 className="text-base sm:text-lg font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{s.title}</h3>
-                  <p className="text-xs sm:text-sm mb-4" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{s.desc}</p>
+                  <h3 className="text-sm sm:text-base md:text-lg font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{s.title}</h3>
+                  <p className="text-xs sm:text-sm mb-3 sm:mb-4" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{s.desc}</p>
                   <span className="inline-flex items-center gap-1 text-xs sm:text-sm font-semibold" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
                     Learn More <ArrowRight size={14} />
                   </span>
@@ -250,8 +250,8 @@ export default function HomePage() {
       </section>
 
       {/* Stats */}
-      <section className="py-20 px-4 md:px-8" style={{ background: "#1A1A1A" }}>
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8" style={{ background: "#1A1A1A" }}>
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
           <CounterStat end={50} suffix="+" label="Projects Delivered" />
           <CounterStat end={100} suffix="%" label="Client Satisfaction" />
           <CounterStat end={12} suffix="+" label="Service Categories" />
@@ -260,21 +260,21 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
         <ScrollReveal>
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-6 sm:mb-8 md:mb-12" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
             Why Choose Bhosale Tech Solution?
           </h2>
         </ScrollReveal>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
           {whyUs.map((w, i) => (
             <ScrollReveal key={w.title} delay={i * 100}>
-              <div className="rounded-2xl p-6 border h-full hover:shadow-lg transition-all" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style={{ background: "#C9A24B" }}>
-                  <w.icon size={18} style={{ color: "#1A1A1A" }} />
+              <div className="rounded-2xl p-5 sm:p-6 border h-full hover:shadow-lg transition-all" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
+                <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center mb-3 sm:mb-4" style={{ background: "#C9A24B" }}>
+                  <w.icon size={16} style={{ color: "#1A1A1A" }} />
                 </div>
-                <h3 className="text-base font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{w.title}</h3>
-                <p className="text-sm" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{w.desc}</p>
+                <h3 className="text-sm sm:text-base font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{w.title}</h3>
+                <p className="text-xs sm:text-sm" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{w.desc}</p>
               </div>
             </ScrollReveal>
           ))}
@@ -282,27 +282,27 @@ export default function HomePage() {
       </section>
 
       {/* Workflow Preview */}
-      <section className="py-20 px-4 md:px-8" style={{ background: "#FBF1DD" }}>
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8" style={{ background: "#FBF1DD" }}>
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
-            <h2 className="text-3xl md:text-4xl font-black text-center mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-2 sm:mb-3 md:mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
               Our 6-Step Workflow
             </h2>
-            <p className="text-center mb-12" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>From problem to production — faster than anyone else.</p>
+            <p className="text-center mb-6 sm:mb-8 md:mb-12 text-xs sm:text-sm md:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>From problem to production — faster than anyone else.</p>
           </ScrollReveal>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4">
             {workflowSteps.map((step, i) => (
               <ScrollReveal key={step.num} delay={i * 80}>
-                <div className="rounded-2xl p-5 border text-center h-full" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
-                  <div className="text-2xl font-black mb-2" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{step.num}</div>
-                  <h4 className="text-sm font-bold mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{step.title}</h4>
+                <div className="rounded-2xl p-4 sm:p-5 border text-center h-full" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
+                  <div className="text-xl sm:text-2xl font-black mb-2" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{step.num}</div>
+                  <h4 className="text-xs sm:text-sm font-bold mb-1 sm:mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{step.title}</h4>
                   <p className="text-xs" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{step.desc}</p>
                 </div>
               </ScrollReveal>
             ))}
           </div>
-          <div className="text-center mt-8">
-            <Link to="/workflow" className="inline-flex items-center gap-2 text-sm font-semibold" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
+          <div className="text-center mt-6 sm:mt-8">
+            <Link to="/workflow" className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
               See Full Workflow <ArrowRight size={14} />
             </Link>
           </div>
@@ -310,30 +310,30 @@ export default function HomePage() {
       </section>
 
       {/* Pricing Preview */}
-      <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
         <ScrollReveal>
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-2 sm:mb-3 md:mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
             Transparent Pricing
           </h2>
-          <p className="text-center mb-12" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>No hidden costs. Pay for real value delivered.</p>
+          <p className="text-center mb-6 sm:mb-8 md:mb-12 text-xs sm:text-sm md:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>No hidden costs. Pay for real value delivered.</p>
         </ScrollReveal>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
           {plans.map((plan, i) => (
             <ScrollReveal key={plan.name} delay={i * 100}>
-              <div className="rounded-2xl p-8 border relative h-full flex flex-col" style={{ background: "#FBF1DD", borderColor: plan.popular ? "#C9A24B" : "#E5DCC8", borderWidth: plan.popular ? "2px" : "1px" }}>
+              <div className="rounded-2xl p-6 sm:p-7 md:p-8 border relative h-full flex flex-col" style={{ background: "#FBF1DD", borderColor: plan.popular ? "#C9A24B" : "#E5DCC8", borderWidth: plan.popular ? "2px" : "1px" }}>
                 {plan.popular && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-bold" style={{ background: "#C9A24B", color: "#111111", fontFamily: "Sora, sans-serif" }}>
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 sm:px-4 py-1 rounded-full text-xs font-bold" style={{ background: "#C9A24B", color: "#111111", fontFamily: "Sora, sans-serif" }}>
                     Most Popular
                   </div>
                 )}
-                <div className="w-3 h-3 rounded-full mb-4" style={{ background: plan.color }} />
-                <h3 className="text-xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{plan.name}</h3>
-                <p className="text-xs font-semibold mb-3 uppercase tracking-wide" style={{ color: plan.color, fontFamily: "Sora, sans-serif" }}>{plan.label}</p>
-                <p className="text-2xl font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{plan.price}</p>
-                <p className="text-sm mb-6" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{plan.desc}</p>
-                <ul className="space-y-2 mb-8 flex-1">
+                <div className="w-3 h-3 rounded-full mb-3 sm:mb-4" style={{ background: plan.color }} />
+                <h3 className="text-lg sm:text-xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{plan.name}</h3>
+                <p className="text-xs font-semibold mb-2 sm:mb-3 uppercase tracking-wide" style={{ color: plan.color, fontFamily: "Sora, sans-serif" }}>{plan.label}</p>
+                <p className="text-xl sm:text-2xl font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{plan.price}</p>
+                <p className="text-xs sm:text-sm mb-4 sm:mb-6" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{plan.desc}</p>
+                <ul className="space-y-2 mb-6 sm:mb-8 flex-1">
                   {plan.features.map((f) => (
-                    <li key={f} className="flex items-center gap-2 text-sm" style={{ color: "#111111", fontFamily: "Inter, sans-serif" }}>
+                    <li key={f} className="flex items-center gap-2 text-xs sm:text-sm" style={{ color: "#111111", fontFamily: "Inter, sans-serif" }}>
                       <CheckCircle size={14} style={{ color: "#C9A24B", flexShrink: 0 }} />
                       {f}
                     </li>
@@ -343,7 +343,7 @@ export default function HomePage() {
                   href="https://wa.me/919860810865"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-center px-6 py-3 rounded-full font-bold text-sm transition-all hover:scale-105"
+                  className="block text-center w-full px-6 py-2.5 sm:py-3 rounded-full font-bold text-xs sm:text-sm transition-all hover:scale-105"
                   style={{ background: "#1A1A1A", color: "#FFF8E7", fontFamily: "Sora, sans-serif" }}
                 >
                   Get Started
@@ -352,32 +352,32 @@ export default function HomePage() {
             </ScrollReveal>
           ))}
         </div>
-        <div className="text-center mt-8">
-          <Link to="/pricing" className="inline-flex items-center gap-2 text-sm font-semibold" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
+        <div className="text-center mt-6 sm:mt-8">
+          <Link to="/pricing" className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
             View Full Pricing Details <ArrowRight size={14} />
           </Link>
         </div>
       </section>
 
       {/* Founder Highlight */}
-      <section className="py-20 px-4 md:px-8" style={{ background: "#FBF1DD" }}>
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8" style={{ background: "#FBF1DD" }}>
         <div className="max-w-4xl mx-auto">
           <ScrollReveal>
-            <div className="rounded-3xl p-10 border" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
-              <div className="flex flex-col md:flex-row gap-8 items-center">
-                <div className="w-28 h-28 rounded-2xl flex-shrink-0 flex items-center justify-center text-4xl font-black" style={{ background: "#1A1A1A", color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
+            <div className="rounded-3xl p-6 sm:p-8 md:p-10 border" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
+              <div className="flex flex-col md:flex-row gap-6 sm:gap-8 items-start md:items-center">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl flex-shrink-0 flex items-center justify-center text-3xl sm:text-4xl font-black" style={{ background: "#1A1A1A", color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
                   AB
                 </div>
-                <div>
-                  <div className="text-xs font-bold tracking-widest uppercase mb-2" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>Founder & Lead Developer</div>
-                  <h3 className="text-2xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>Atharv Bhosale</h3>
-                  <p className="text-sm mb-3" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Computer Engineering — Sinhgad College of Engineering</p>
-                  <p className="text-sm mb-4" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>
+                <div className="flex-1 w-full">
+                  <div className="text-xs font-bold tracking-widest uppercase mb-1 sm:mb-2" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>Founder & Lead Developer</div>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>Atharv Bhosale</h3>
+                  <p className="text-xs sm:text-sm mb-2 sm:mb-3" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Computer Engineering — Sinhgad College of Engineering</p>
+                  <p className="text-xs sm:text-sm mb-3 sm:mb-4" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>
                     Experienced freelance developer specializing in large-scale fintech applications, AI automation systems, and scalable architecture — delivering efficiency-first engineering solutions.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {["Java", "React", "Spring Boot", "AI Automation", "Machine Learning", "Agentic AI"].map((skill) => (
-                      <span key={skill} className="px-3 py-1 rounded-full text-xs font-semibold" style={{ background: "#F0E8D0", color: "#1A1A1A", fontFamily: "Sora, sans-serif", border: "1px solid #E5DCC8" }}>
+                      <span key={skill} className="px-2 sm:px-3 py-1 rounded-full text-xs font-semibold" style={{ background: "#F0E8D0", color: "#1A1A1A", fontFamily: "Sora, sans-serif", border: "1px solid #E5DCC8" }}>
                         {skill}
                       </span>
                     ))}
@@ -390,28 +390,28 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials placeholder */}
-      <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
         <ScrollReveal>
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center mb-6 sm:mb-8 md:mb-12" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
             What Clients Say
           </h2>
         </ScrollReveal>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
           {[
             { name: "Rajesh Kumar", role: "CEO, FinanceFlow", quote: "Atharv delivered our fintech dashboard in record time. The AI automation saved us 40 hours per week." },
             { name: "Priya Sharma", role: "Founder, ShopEase", quote: "The website and WhatsApp automation completely transformed our customer handling. 5 stars!" },
             { name: "Amit Desai", role: "COO, TechVentures", quote: "The combo package was exactly what we needed. One system for everything. Worth every rupee." },
           ].map((t, i) => (
             <ScrollReveal key={t.name} delay={i * 100}>
-              <div className="rounded-2xl p-7 border h-full" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
-                <div className="flex gap-1 mb-4">
+              <div className="rounded-2xl p-5 sm:p-6 md:p-7 border h-full" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
+                <div className="flex gap-1 mb-3 sm:mb-4">
                   {Array(5).fill(0).map((_, j) => (
-                    <Star key={j} size={14} style={{ color: "#C9A24B", fill: "#C9A24B" }} />
+                    <Star key={j} size={13} style={{ color: "#C9A24B", fill: "#C9A24B" }} />
                   ))}
                 </div>
-                <p className="text-sm mb-6 italic" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>"{t.quote}"</p>
+                <p className="text-xs sm:text-sm mb-4 sm:mb-6 italic" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>"{t.quote}"</p>
                 <div>
-                  <p className="text-sm font-bold" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{t.name}</p>
+                  <p className="text-xs sm:text-sm font-bold" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{t.name}</p>
                   <p className="text-xs" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{t.role}</p>
                 </div>
               </div>
@@ -421,27 +421,27 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 md:px-8" style={{ background: "#1A1A1A" }}>
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8" style={{ background: "#1A1A1A" }}>
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-black mb-4" style={{ color: "#FFF8E7", fontFamily: "Sora, sans-serif" }}>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-3 sm:mb-4" style={{ color: "#FFF8E7", fontFamily: "Sora, sans-serif" }}>
             Ready to Scale Your Business?
           </h2>
-          <p className="text-base mb-10" style={{ color: "#B8A98A", fontFamily: "Inter, sans-serif" }}>
+          <p className="text-xs sm:text-sm md:text-base mb-6 sm:mb-8 md:mb-10" style={{ color: "#B8A98A", fontFamily: "Inter, sans-serif" }}>
             Let's build something fast, efficient, and extraordinary together.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:justify-center gap-3 sm:gap-4">
             <a
               href="https://wa.me/919860810865"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-base transition-all hover:scale-105"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-xs sm:text-sm md:text-base transition-all hover:scale-105"
               style={{ background: "#25D366", color: "#fff", fontFamily: "Sora, sans-serif" }}
             >
               WhatsApp Now
             </a>
             <a
               href="mailto:bhosaleatharv8765@gmail.com"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-base border-2 transition-all hover:scale-105"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-xs sm:text-sm md:text-base border-2 transition-all hover:scale-105"
               style={{ borderColor: "#C9A24B", color: "#C9A24B", fontFamily: "Sora, sans-serif" }}
             >
               Send Email
