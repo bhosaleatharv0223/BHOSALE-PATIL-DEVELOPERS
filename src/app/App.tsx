@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router";
 import { useEffect } from "react";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import { MobileActionBar } from "./components/MobileActionBar";
 import { WhatsAppButton } from "./components/WhatsAppButton";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -46,6 +47,7 @@ function Layout() {
         </Routes>
       </main>
       <Footer />
+      <MobileActionBar />
       <WhatsAppButton />
     </div>
   );

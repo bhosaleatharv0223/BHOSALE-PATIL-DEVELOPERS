@@ -118,27 +118,27 @@ export default function HomePage() {
   return (
     <div style={{ background: "#FFF8E7" }}>
       {/* Hero */}
-      <section className="pt-32 pb-20 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section className="pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold mb-8 border" style={{ borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }}>
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold mb-6 sm:mb-8 border" style={{ borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }}>
               <Zap size={12} />
               Premium IT Solutions — India
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tight mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
-              We Design.<br />We Develop.<br />
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight sm:leading-none tracking-tight mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+              We Design.<br className="hidden sm:block" />We Develop.<br className="hidden sm:block" />
               <span style={{ color: "#C9A24B" }}>We Deliver.</span>
             </h1>
-            <p className="text-lg md:text-xl font-semibold mt-4 mb-6" style={{ color: "#6B5F45", fontFamily: "Sora, sans-serif" }}>
+            <p className="text-base sm:text-lg md:text-xl font-semibold mt-4 mb-6" style={{ color: "#6B5F45", fontFamily: "Sora, sans-serif" }}>
               Make Your Business Global with Bhosale Tech Solution
             </p>
             <RotatingText />
-            <div className="flex flex-wrap gap-4 mt-10">
+            <div className="flex flex-col sm:flex-row gap-4 mt-10">
               <a
                 href="https://wa.me/919860810865?text=Hi%2C%20I%20want%20to%20book%20a%20free%20call"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-base transition-all hover:scale-105"
+                className="inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base transition-all hover:scale-105 min-h-12"
                 style={{ background: "#1A1A1A", color: "#FFF8E7", fontFamily: "Sora, sans-serif" }}
               >
                 Book Free Call
@@ -146,7 +146,7 @@ export default function HomePage() {
               </a>
               <Link
                 to="/services"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-base border-2 transition-all hover:scale-105"
+                className="inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base border-2 transition-all hover:scale-105 min-h-12"
                 style={{ borderColor: "#1A1A1A", color: "#1A1A1A", fontFamily: "Sora, sans-serif" }}
               >
                 View Services
@@ -155,10 +155,10 @@ export default function HomePage() {
           </div>
 
           {/* Right: abstract illustration */}
-          <div className="relative flex items-center justify-center">
-            <div className="w-full max-w-md h-96 rounded-3xl relative overflow-hidden" style={{ background: "#FBF1DD", border: "1px solid #E5DCC8" }}>
+          <div className="relative flex items-center justify-center mt-8 lg:mt-0">
+            <div className="w-full max-w-sm h-72 sm:h-80 md:h-96 rounded-3xl relative overflow-hidden" style={{ background: "#FBF1DD", border: "1px solid #E5DCC8" }}>
               {/* Abstract tech pattern */}
-              <svg width="100%" height="100%" viewBox="0 0 400 350" fill="none">
+              <svg width="100%" height="100%" viewBox="0 0 400 350" fill="none" preserveAspectRatio="xMidYMid slice">
                 <circle cx="200" cy="175" r="80" stroke="#C9A24B" strokeWidth="1.5" strokeDasharray="6 4" opacity="0.6" />
                 <circle cx="200" cy="175" r="120" stroke="#E5DCC8" strokeWidth="1" strokeDasharray="4 6" opacity="0.5" />
                 <circle cx="200" cy="175" r="160" stroke="#E5DCC8" strokeWidth="0.5" strokeDasharray="3 8" opacity="0.3" />
@@ -187,34 +187,34 @@ export default function HomePage() {
       </section>
 
       {/* Trust Bar */}
-      <section style={{ background: "#1A1A1A" }} className="py-6 px-4">
-        <div className="max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-8 md:gap-16">
-          {["⚡ Fast Delivery", "💰 Cost-Effective", "🤖 AI-Driven", "🏦 Fintech Experience", "✅ 100% Satisfaction"].map((item) => (
-            <span key={item} className="text-sm font-semibold tracking-wide" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{item}</span>
+      <section style={{ background: "#1A1A1A" }} className="py-8 md:py-12 px-4 md:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-8">
+          {["⚡ Fast Delivery", "💰 Cost-Effective", "🤖 AI-Driven", "🏦 Fintech Exp.", "✅ 100% Happy"].map((item) => (
+            <span key={item} className="text-xs sm:text-sm font-semibold tracking-wide text-center" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{item}</span>
           ))}
         </div>
       </section>
 
       {/* Core Motto */}
-      <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
         <ScrollReveal>
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-center mb-3 sm:mb-4" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>
             Our Core Motto
           </h2>
-          <p className="text-center mb-12 text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Three principles that drive every project we touch.</p>
+          <p className="text-center mb-8 sm:mb-12 text-sm sm:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Three principles that drive every project we touch.</p>
         </ScrollReveal>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
           {[
             { icon: "⏱️", title: "Less Time", sub: "Faster Delivery", desc: "We deliver in record time using structured rapid-development workflows." },
             { icon: "💸", title: "Less Cost", sub: "Better Value", desc: "Premium quality without premium prices — optimal resource allocation." },
             { icon: "📈", title: "Maximum Output", sub: "More Results", desc: "Every rupee invested delivers measurable ROI and business growth." },
           ].map((item, i) => (
             <ScrollReveal key={item.title} delay={i * 120}>
-              <div className="rounded-2xl p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
-                <div className="text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{item.title}</h3>
-                <p className="text-sm font-semibold mb-3" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{item.sub}</p>
-                <p className="text-sm" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{item.desc}</p>
+              <div className="rounded-2xl p-6 sm:p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]" style={{ background: "#FBF1DD", borderColor: "#E5DCC8" }}>
+                <div className="text-3xl sm:text-4xl mb-4">{item.icon}</div>
+                <h3 className="text-lg sm:text-xl font-black mb-1" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{item.title}</h3>
+                <p className="text-xs sm:text-sm font-semibold mb-3" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>{item.sub}</p>
+                <p className="text-xs sm:text-sm" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{item.desc}</p>
               </div>
             </ScrollReveal>
           ))}
@@ -222,24 +222,24 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section className="py-20 px-4 md:px-8" style={{ background: "#FBF1DD" }}>
+      <section className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8" style={{ background: "#FBF1DD" }}>
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-black mb-3" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>Our Services</h2>
-              <p className="text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Everything your business needs to grow digitally — under one roof.</p>
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-black mb-2 sm:mb-3" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>Our Services</h2>
+              <p className="text-sm sm:text-base" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>Everything your business needs to grow digitally — under one roof.</p>
             </div>
           </ScrollReveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {services.map((s, i) => (
               <ScrollReveal key={s.title} delay={i * 80}>
-                <Link to={s.to} className="group block rounded-2xl p-7 border transition-all hover:shadow-xl hover:scale-[1.02]" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
+                <Link to={s.to} className="group block rounded-2xl p-6 sm:p-7 border transition-all hover:shadow-xl hover:scale-[1.02] h-full" style={{ background: "#FFF8E7", borderColor: "#E5DCC8" }}>
                   <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-all group-hover:rotate-6" style={{ background: "#1A1A1A" }}>
                     <s.icon size={22} style={{ color: "#C9A24B" }} />
                   </div>
-                  <h3 className="text-lg font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{s.title}</h3>
-                  <p className="text-sm mb-4" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{s.desc}</p>
-                  <span className="inline-flex items-center gap-1 text-sm font-semibold" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
+                  <h3 className="text-base sm:text-lg font-black mb-2" style={{ color: "#000000", fontFamily: "Sora, sans-serif" }}>{s.title}</h3>
+                  <p className="text-xs sm:text-sm mb-4" style={{ color: "#6B5F45", fontFamily: "Inter, sans-serif" }}>{s.desc}</p>
+                  <span className="inline-flex items-center gap-1 text-xs sm:text-sm font-semibold" style={{ color: "#C9A24B", fontFamily: "Sora, sans-serif" }}>
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
