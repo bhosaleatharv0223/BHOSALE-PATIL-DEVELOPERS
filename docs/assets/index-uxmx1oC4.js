@@ -9421,18 +9421,18 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$u = [
+const __iconNode$v = [
   ["path", { d: "M5 12h14", key: "1ays0h" }],
   ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
 ];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$u);
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$v);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$t = [
+const __iconNode$u = [
   [
     "path",
     {
@@ -9442,14 +9442,14 @@ const __iconNode$t = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$t);
+const Award = createLucideIcon("award", __iconNode$u);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$s = [
+const __iconNode$t = [
   ["path", { d: "M12 8V4H8", key: "hb8ula" }],
   ["rect", { width: "16", height: "12", x: "4", y: "8", rx: "2", key: "enze0r" }],
   ["path", { d: "M2 14h2", key: "vft8re" }],
@@ -9457,14 +9457,14 @@ const __iconNode$s = [
   ["path", { d: "M15 13v2", key: "1xurst" }],
   ["path", { d: "M9 13v2", key: "rq6x2g" }]
 ];
-const Bot = createLucideIcon("bot", __iconNode$s);
+const Bot = createLucideIcon("bot", __iconNode$t);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$r = [
+const __iconNode$s = [
   [
     "path",
     {
@@ -9487,36 +9487,47 @@ const __iconNode$r = [
   ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
   ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
 ];
-const Brain = createLucideIcon("brain", __iconNode$r);
+const Brain = createLucideIcon("brain", __iconNode$s);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$q = [
+const __iconNode$r = [
   ["path", { d: "M8 2v4", key: "1cmpym" }],
   ["path", { d: "M16 2v4", key: "4m81vk" }],
   ["rect", { width: "18", height: "18", x: "3", y: "4", rx: "2", key: "1hopcy" }],
   ["path", { d: "M3 10h18", key: "8toen8" }]
 ];
-const Calendar = createLucideIcon("calendar", __iconNode$q);
+const Calendar = createLucideIcon("calendar", __iconNode$r);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$p = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$p);
+const __iconNode$q = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
+const ChevronDown = createLucideIcon("chevron-down", __iconNode$q);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$o = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$o);
+const __iconNode$p = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$p);
+/**
+ * @license lucide-react v0.487.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$o = [
+  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+];
+const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$o);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9524,10 +9535,10 @@ const ChevronRight = createLucideIcon("chevron-right", __iconNode$o);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$n = [
-  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
-  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
 ];
-const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$n);
+const Clock = createLucideIcon("clock", __iconNode$n);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9535,10 +9546,10 @@ const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$n);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$m = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
+  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
 ];
-const Clock = createLucideIcon("clock", __iconNode$m);
+const DollarSign = createLucideIcon("dollar-sign", __iconNode$m);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9546,10 +9557,11 @@ const Clock = createLucideIcon("clock", __iconNode$m);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$l = [
-  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
-  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20", key: "13o1zl" }],
+  ["path", { d: "M2 12h20", key: "9i4pu4" }]
 ];
-const DollarSign = createLucideIcon("dollar-sign", __iconNode$l);
+const Globe = createLucideIcon("globe", __iconNode$l);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9557,18 +9569,6 @@ const DollarSign = createLucideIcon("dollar-sign", __iconNode$l);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$k = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20", key: "13o1zl" }],
-  ["path", { d: "M2 12h20", key: "9i4pu4" }]
-];
-const Globe = createLucideIcon("globe", __iconNode$k);
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$j = [
   [
     "path",
     {
@@ -9579,7 +9579,18 @@ const __iconNode$j = [
   ["path", { d: "M9 18h6", key: "x1upvd" }],
   ["path", { d: "M10 22h4", key: "ceow96" }]
 ];
-const Lightbulb = createLucideIcon("lightbulb", __iconNode$j);
+const Lightbulb = createLucideIcon("lightbulb", __iconNode$k);
+/**
+ * @license lucide-react v0.487.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$j = [
+  ["rect", { width: "20", height: "16", x: "2", y: "4", rx: "2", key: "18n3k1" }],
+  ["path", { d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7", key: "1ocrg3" }]
+];
+const Mail = createLucideIcon("mail", __iconNode$j);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9587,10 +9598,10 @@ const Lightbulb = createLucideIcon("lightbulb", __iconNode$j);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$i = [
-  ["rect", { width: "20", height: "16", x: "2", y: "4", rx: "2", key: "18n3k1" }],
-  ["path", { d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7", key: "1ocrg3" }]
+  ["path", { d: "m3 11 18-5v12L3 14v-3z", key: "n962bs" }],
+  ["path", { d: "M11.6 16.8a3 3 0 1 1-5.8-1.6", key: "1yl0tm" }]
 ];
-const Mail = createLucideIcon("mail", __iconNode$i);
+const Megaphone = createLucideIcon("megaphone", __iconNode$i);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9598,10 +9609,11 @@ const Mail = createLucideIcon("mail", __iconNode$i);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$h = [
-  ["path", { d: "m3 11 18-5v12L3 14v-3z", key: "n962bs" }],
-  ["path", { d: "M11.6 16.8a3 3 0 1 1-5.8-1.6", key: "1yl0tm" }]
+  ["line", { x1: "4", x2: "20", y1: "12", y2: "12", key: "1e0a9i" }],
+  ["line", { x1: "4", x2: "20", y1: "6", y2: "6", key: "1owob3" }],
+  ["line", { x1: "4", x2: "20", y1: "18", y2: "18", key: "yk5zj1" }]
 ];
-const Megaphone = createLucideIcon("megaphone", __iconNode$h);
+const Menu = createLucideIcon("menu", __iconNode$h);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9609,11 +9621,9 @@ const Megaphone = createLucideIcon("megaphone", __iconNode$h);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$g = [
-  ["line", { x1: "4", x2: "20", y1: "12", y2: "12", key: "1e0a9i" }],
-  ["line", { x1: "4", x2: "20", y1: "6", y2: "6", key: "1owob3" }],
-  ["line", { x1: "4", x2: "20", y1: "18", y2: "18", key: "yk5zj1" }]
+  ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
 ];
-const Menu = createLucideIcon("menu", __iconNode$g);
+const MessageCircle = createLucideIcon("message-circle", __iconNode$g);
 /**
  * @license lucide-react v0.487.0 - ISC
  *
@@ -9865,37 +9875,47 @@ function Navbar() {
   reactExports.useEffect(() => {
     setOpen(false);
   }, [location.pathname]);
+  reactExports.useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "nav",
       {
-        className: "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        className: "fixed top-0 left-0 right-0 z-50 transition-all duration-300 shadow-sm md:shadow-none",
         style: {
           background: scrolled ? "rgba(230, 215, 195, 0.96)" : "#E6D7C3",
-          borderBottom: scrolled ? "1px solid #D4C4B0" : "1px solid transparent",
+          borderBottom: "1px solid #D4C4B0",
           backdropFilter: scrolled ? "blur(12px)" : "none"
         },
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "w-full max-w-7xl mx-auto px-8 md:px-12 flex items-center justify-between py-2", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/", className: "flex items-center gap-4 group hover:opacity-80 transition-opacity flex-shrink-0", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-25 w-25 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden", style: { background: "#E6D7C3", border: "3px solid #C9A24B" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "w-full max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex items-center justify-between py-2 md:py-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/", className: "flex items-center gap-1.5 md:gap-4 group hover:opacity-80 transition-opacity flex-shrink-0", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-10 w-10 md:h-12 lg:h-12 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden", style: { background: "#E6D7C3", border: "3px solid #C9A24B" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
               "img",
               {
                 src: "/ChatGPT Image Jun 15, 2026, 03_56_57 PM.png",
                 alt: "Bhosale Patil Developers Logo",
-                className: "h-25 w-25 object-cover object-center"
+                className: "h-full w-full object-cover object-center"
               }
             ) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col leading-tight", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-lg tracking-tight", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "BHOSALE" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-lg tracking-tight", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "PATIL" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm tracking-widest font-black", style: { color: "#000000", fontFamily: "Sora, sans-serif", marginTop: "2px" }, children: "DEVELOPERS" })
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col leading-tight hidden sm:flex", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-xs sm:text-sm md:text-base lg:text-lg tracking-tight", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "BHOSALE" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-xs sm:text-sm md:text-base lg:text-lg tracking-tight", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "PATIL" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs tracking-widest font-black", style: { color: "#000000", fontFamily: "Sora, sans-serif", marginTop: "2px" }, children: "DEVELOPERS" })
             ] })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden lg:flex items-center gap-1", children: navLinks.map((link) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
             Link,
             {
               to: link.to,
-              className: "relative px-3 py-1.5 text-sm font-medium transition-colors group",
+              className: "relative px-4 py-2 text-sm font-medium transition-colors group min-h-12 flex items-center",
               style: {
                 color: location.pathname === link.to ? "#C9A24B" : "#000000",
                 fontFamily: "Sora, sans-serif"
@@ -9922,7 +9942,7 @@ function Navbar() {
               href: "https://wa.me/919860810865?text=Hi%2C%20I%20want%20a%20free%20consultation",
               target: "_blank",
               rel: "noreferrer",
-              className: "px-5 py-2 text-sm font-semibold rounded-full transition-all duration-300 hover:scale-105",
+              className: "px-6 py-3 text-sm font-semibold rounded-full transition-all duration-300 hover:scale-105 min-h-12 flex items-center",
               style: {
                 background: "#000000",
                 color: "#E6D7C3",
@@ -9942,9 +9962,10 @@ function Navbar() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "button",
             {
-              className: "lg:hidden p-2",
+              className: "lg:hidden p-3 min-h-12 min-w-12 flex items-center justify-center",
               onClick: () => setOpen(!open),
               style: { color: "#000000" },
+              "aria-label": open ? "Close menu" : "Open menu",
               children: open ? /* @__PURE__ */ jsxRuntimeExports.jsx(X, { size: 24 }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Menu, { size: 24 })
             }
           )
@@ -9954,43 +9975,42 @@ function Navbar() {
     open && /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "div",
       {
-        className: "fixed inset-0 z-40 flex",
+        className: "fixed inset-0 z-40 flex overflow-hidden",
         onClick: () => setOpen(false),
+        style: { marginTop: "56px" },
         children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "div",
             {
-              className: "w-72 h-full flex flex-col p-8 gap-4 overflow-y-auto",
-              style: { background: "#E6D7C3", borderLeft: "1px solid #D4C4B0" },
+              className: "w-full sm:w-80 h-[calc(100vh-56px)] flex flex-col p-4 sm:p-6 gap-0 overflow-y-auto",
+              style: { background: "#FFF8E7", borderLeft: "1px solid #D4C4B0" },
               onClick: (e) => e.stopPropagation(),
               children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mb-4", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/", className: "flex items-center gap-3", onClick: () => setOpen(false), children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-16 w-16 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden", style: { background: "#E6D7C3", border: "3px solid #C9A24B" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "img",
-                      {
-                        src: "/ChatGPT Image Jun 15, 2026, 03_56_57 PM.png",
-                        alt: "Bhosale Patil Developers Logo",
-                        className: "h-16 w-16 object-cover object-center"
-                      }
-                    ) }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col", children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-sm", style: { fontFamily: "Sora, sans-serif", color: "#000000" }, children: "BP" }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs", style: { fontFamily: "Sora, sans-serif", color: "#000000" }, children: "Dev" })
-                    ] })
-                  ] }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("button", { onClick: () => setOpen(false), children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { size: 20 }) })
-                ] }),
-                navLinks.map((link) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-end mb-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "button",
+                  {
+                    onClick: () => setOpen(false),
+                    className: "p-2 hover:bg-gray-100 rounded-lg transition-colors touch-manipulation",
+                    style: { minHeight: "48px", minWidth: "48px" },
+                    "aria-label": "Close menu",
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { size: 24, style: { color: "#000000" } })
+                  }
+                ) }),
+                navLinks.map((link, index) => /* @__PURE__ */ jsxRuntimeExports.jsx(
                   Link,
                   {
                     to: link.to,
-                    className: "text-base font-semibold py-2 border-b",
+                    className: "text-base font-semibold px-4 border-b transition-colors hover:bg-gray-100 rounded-lg touch-manipulation",
                     style: {
                       borderColor: "#D4C4B0",
                       color: location.pathname === link.to ? "#C9A24B" : "#000000",
-                      fontFamily: "Sora, sans-serif"
+                      fontFamily: "Sora, sans-serif",
+                      minHeight: "56px",
+                      display: "flex",
+                      alignItems: "center",
+                      paddingTop: "12px",
+                      paddingBottom: "12px"
                     },
                     children: link.label
                   },
@@ -10002,8 +10022,16 @@ function Navbar() {
                     href: "https://wa.me/919860810865?text=Hi%2C%20I%20want%20a%20free%20consultation",
                     target: "_blank",
                     rel: "noreferrer",
-                    className: "mt-4 px-5 py-3 text-center text-sm font-semibold rounded-full",
-                    style: { background: "#000000", color: "#E6D7C3", fontFamily: "Sora, sans-serif" },
+                    className: "mt-auto mb-4 px-6 text-center text-base font-semibold rounded-full transition-all hover:scale-105 touch-manipulation",
+                    style: {
+                      background: "#000000",
+                      color: "#FFF8E7",
+                      fontFamily: "Sora, sans-serif",
+                      minHeight: "56px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center"
+                    },
                     children: "Get Free Consultation"
                   }
                 )
@@ -10032,62 +10060,62 @@ const quickLinks = [
   { label: "Contact", to: "/contact" }
 ];
 function Footer() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { style: { background: "#1A1A1A", color: "#FFF8E7" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 md:px-8 py-16", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-1", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { style: { background: "#1A1A1A", color: "#FFF8E7" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 lg:mb-0", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "sm:col-span-2 lg:col-span-1 lg:col-span-1", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-lg flex items-center justify-center", style: { background: "#C9A24B" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { size: 16, style: { color: "#1A1A1A" } }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-lg", style: { fontFamily: "Sora, sans-serif", color: "#FFF8E7" }, children: "Bhosale Tech Solution" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0", style: { background: "#C9A24B" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { size: 16, style: { color: "#1A1A1A" } }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-base sm:text-lg", style: { fontFamily: "Sora, sans-serif", color: "#FFF8E7" }, children: "Bhosale Tech" })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed mb-6", style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" }, children: "Premium IT startup delivering AI automation, web & mobile development, and UI/UX design — faster, smarter, more affordable." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold tracking-widest uppercase", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "We Design. We Develop. We Deliver." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm leading-relaxed mb-6", style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" }, children: "Premium IT startup delivering AI automation, web & mobile development, and UI/UX design — faster, smarter, more affordable." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold tracking-widest uppercase", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "We Design. We Develop." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-bold text-sm tracking-widest uppercase mb-5", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Quick Links" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: quickLinks.map((l) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-bold text-xs sm:text-sm tracking-widest uppercase mb-4 sm:mb-5", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Links" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-1.5 sm:space-y-2", children: quickLinks.map((l) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
           Link,
           {
             to: l.to,
-            className: "text-sm transition-colors hover:text-amber-400",
+            className: "text-xs sm:text-sm transition-colors hover:text-amber-400",
             style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" },
             children: l.label
           }
         ) }, l.to)) })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-bold text-sm tracking-widest uppercase mb-5", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Services" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: services$3.map((s) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-bold text-xs sm:text-sm tracking-widest uppercase mb-4 sm:mb-5", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Services" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-1.5 sm:space-y-2", children: services$3.map((s) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
           Link,
           {
             to: s.to,
-            className: "text-sm transition-colors hover:text-amber-400",
+            className: "text-xs sm:text-sm transition-colors hover:text-amber-400 line-clamp-2",
             style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" },
             children: s.label
           }
         ) }, s.to)) })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-bold text-sm tracking-widest uppercase mb-5", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Contact Us" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "space-y-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 16, className: "mt-0.5 flex-shrink-0", style: { color: "#C9A24B" } }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-bold text-xs sm:text-sm tracking-widest uppercase mb-4 sm:mb-5", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: "Contact" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "space-y-2 sm:space-y-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 sm:gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 14, className: "mt-0.5 flex-shrink-0", style: { color: "#C9A24B" } }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "a",
               {
                 href: "mailto:bhosaleatharv8765@gmail.com",
-                className: "text-sm break-all hover:text-amber-400 transition-colors",
+                className: "text-xs sm:text-sm break-all hover:text-amber-400 transition-colors",
                 style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" },
                 children: "bhosaleatharv8765@gmail.com"
               }
             )
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { size: 16, className: "mt-0.5 flex-shrink-0", style: { color: "#C9A24B" } }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 sm:gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { size: 14, className: "mt-0.5 flex-shrink-0", style: { color: "#C9A24B" } }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "a",
               {
                 href: "tel:+919860810865",
-                className: "text-sm hover:text-amber-400 transition-colors",
+                className: "text-xs sm:text-sm hover:text-amber-400 transition-colors",
                 style: { color: "#B8A98A", fontFamily: "Inter, sans-serif" },
                 children: "+91 9860810865"
               }
@@ -10099,19 +10127,72 @@ function Footer() {
               href: "https://wa.me/919860810865",
               target: "_blank",
               rel: "noreferrer",
-              className: "inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mt-2 transition-all hover:scale-105",
+              className: "inline-flex items-center gap-2 px-3 py-2 rounded-full text-xs sm:text-sm font-semibold mt-2 transition-all hover:scale-105",
               style: { background: "#25D366", color: "#fff", fontFamily: "Sora, sans-serif" },
-              children: "WhatsApp Us"
+              children: "WhatsApp"
             }
           ) })
         ] })
       ] })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4", style: { borderTop: "1px solid #333" }, children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "© 2026 Bhosale Tech Solution — We Design, We Develop, We Deliver." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Built with speed, efficiency & precision." })
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8 sm:mt-10 md:mt-12 pt-6 sm:pt-8 flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-3 sm:gap-4 text-center sm:text-left", style: { borderTop: "1px solid #333" }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "© 2026 Bhosale Tech Solution" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Speed, efficiency & precision." })
     ] })
   ] }) });
+}
+function MobileActionBar() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        className: "fixed bottom-0 left-0 right-0 lg:hidden z-40 flex gap-0 shadow-lg",
+        style: {
+          background: "#1A1A1A",
+          borderTop: "1px solid #333",
+          height: "56px"
+        },
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "a",
+            {
+              href: "tel:+919860810865",
+              className: "flex-1 flex items-center justify-center gap-2 font-bold text-xs sm:text-sm transition-all touch-manipulation active:opacity-70",
+              style: {
+                color: "#FFF8E7",
+                fontFamily: "Sora, sans-serif"
+              },
+              "aria-label": "Call now",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { size: 18 }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "hidden sm:inline", children: "Call" })
+              ]
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { background: "#333", width: "1px" } }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "a",
+            {
+              href: "https://wa.me/919860810865?text=Hi%2C%20I%20want%20to%20know%20more%20about%20your%20services",
+              target: "_blank",
+              rel: "noreferrer",
+              className: "flex-1 flex items-center justify-center gap-2 font-bold text-xs sm:text-sm transition-all touch-manipulation active:opacity-70",
+              style: {
+                color: "#FFF8E7",
+                fontFamily: "Sora, sans-serif"
+              },
+              "aria-label": "WhatsApp us",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { size: 18 }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "hidden sm:inline", children: "WhatsApp" })
+              ]
+            }
+          )
+        ]
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-14 lg:hidden" })
+  ] });
 }
 function WhatsAppButton() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -10120,7 +10201,7 @@ function WhatsAppButton() {
       href: "https://wa.me/919860810865?text=Hi%2C%20I%20want%20to%20know%20more%20about%20your%20services",
       target: "_blank",
       rel: "noreferrer",
-      className: "fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110",
+      className: "hidden lg:flex fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full items-center justify-center shadow-lg transition-all duration-300 hover:scale-110",
       style: { background: "#25D366" },
       title: "Chat on WhatsApp",
       children: /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { width: "28", height: "28", viewBox: "0 0 32 32", fill: "none", children: [
@@ -10257,29 +10338,29 @@ const plans$1 = [
 ];
 function HomePage() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { background: "#FFF8E7" }, children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "pt-32 pb-20 px-4 md:px-8 max-w-7xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold mb-8 border", style: { borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold mb-6 sm:mb-8 border", style: { borderColor: "#C9A24B", color: "#C9A24B", background: "rgba(201,162,75,0.08)", fontFamily: "Sora, sans-serif" }, children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { size: 12 }),
           "Premium IT Solutions — India"
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tight mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight sm:leading-none tracking-tight mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: [
           "We Design.",
-          /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden sm:block" }),
           "We Develop.",
-          /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden sm:block" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#C9A24B" }, children: "We Deliver." })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg md:text-xl font-semibold mt-4 mb-6", style: { color: "#6B5F45", fontFamily: "Sora, sans-serif" }, children: "Make Your Business Global with Bhosale Tech Solution" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-base sm:text-lg md:text-xl font-semibold mt-4 mb-6", style: { color: "#6B5F45", fontFamily: "Sora, sans-serif" }, children: "Make Your Business Global with Bhosale Tech Solution" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(RotatingText, {}),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-4 mt-10", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 mt-10", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "a",
             {
               href: "https://wa.me/919860810865?text=Hi%2C%20I%20want%20to%20book%20a%20free%20call",
               target: "_blank",
               rel: "noreferrer",
-              className: "inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-base transition-all hover:scale-105",
+              className: "inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base transition-all hover:scale-105 min-h-12",
               style: { background: "#1A1A1A", color: "#FFF8E7", fontFamily: "Sora, sans-serif" },
               children: [
                 "Book Free Call",
@@ -10291,14 +10372,14 @@ function HomePage() {
             Link,
             {
               to: "/services",
-              className: "inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-base border-2 transition-all hover:scale-105",
+              className: "inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full font-bold text-sm sm:text-base border-2 transition-all hover:scale-105 min-h-12",
               style: { borderColor: "#1A1A1A", color: "#1A1A1A", fontFamily: "Sora, sans-serif" },
               children: "View Services"
             }
           )
         ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full max-w-md h-96 rounded-3xl relative overflow-hidden", style: { background: "#FBF1DD", border: "1px solid #E5DCC8" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { width: "100%", height: "100%", viewBox: "0 0 400 350", fill: "none", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative flex items-center justify-center mt-8 lg:mt-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full max-w-sm h-72 sm:h-80 md:h-96 rounded-3xl relative overflow-hidden", style: { background: "#FBF1DD", border: "1px solid #E5DCC8" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { width: "100%", height: "100%", viewBox: "0 0 400 350", fill: "none", preserveAspectRatio: "xMidYMid slice", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "200", cy: "175", r: "80", stroke: "#C9A24B", strokeWidth: "1.5", strokeDasharray: "6 4", opacity: "0.6" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "200", cy: "175", r: "120", stroke: "#E5DCC8", strokeWidth: "1", strokeDasharray: "4 6", opacity: "0.5" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "200", cy: "175", r: "160", stroke: "#E5DCC8", strokeWidth: "0.5", strokeDasharray: "3 8", opacity: "0.3" }),
@@ -10320,33 +10401,33 @@ function HomePage() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("text", { x: "318", y: "230", fill: "#6B5F45", fontSize: "9", fontFamily: "Inter, sans-serif", children: "Mobile" })
       ] }) }) })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { style: { background: "#1A1A1A" }, className: "py-6 px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-8 md:gap-16", children: ["⚡ Fast Delivery", "💰 Cost-Effective", "🤖 AI-Driven", "🏦 Fintech Experience", "✅ 100% Satisfaction"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm font-semibold tracking-wide", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item }, item)) }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-20 px-4 md:px-8 max-w-7xl mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { style: { background: "#1A1A1A" }, className: "py-8 md:py-12 px-4 md:px-6 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-8", children: ["⚡ Fast Delivery", "💰 Cost-Effective", "🤖 AI-Driven", "🏦 Fintech Exp.", "✅ 100% Happy"].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs sm:text-sm font-semibold tracking-wide text-center", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item }, item)) }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(ScrollReveal, { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl md:text-4xl font-black text-center mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Core Motto" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-12 text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Three principles that drive every project we touch." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl sm:text-3xl md:text-4xl font-black text-center mb-3 sm:mb-4", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Core Motto" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center mb-8 sm:mb-12 text-sm sm:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Three principles that drive every project we touch." })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6", children: [
         { icon: "⏱️", title: "Less Time", sub: "Faster Delivery", desc: "We deliver in record time using structured rapid-development workflows." },
         { icon: "💸", title: "Less Cost", sub: "Better Value", desc: "Premium quality without premium prices — optimal resource allocation." },
         { icon: "📈", title: "Maximum Output", sub: "More Results", desc: "Every rupee invested delivers measurable ROI and business growth." }
-      ].map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-4xl mb-4", children: item.icon }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: item.title }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-semibold mb-3", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item.sub }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: item.desc })
+      ].map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 120, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl p-6 sm:p-8 h-full border transition-all hover:shadow-lg hover:scale-[1.02]", style: { background: "#FBF1DD", borderColor: "#E5DCC8" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-3xl sm:text-4xl mb-4", children: item.icon }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg sm:text-xl font-black mb-1", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: item.title }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm font-semibold mb-3", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: item.sub }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: item.desc })
       ] }) }, item.title)) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 px-4 md:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-12", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl md:text-4xl font-black mb-3", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Services" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Everything your business needs to grow digitally — under one roof." })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8", style: { background: "#FBF1DD" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-8 sm:mb-12", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl sm:text-3xl md:text-4xl font-black mb-2 sm:mb-3", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: "Our Services" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm sm:text-base", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: "Everything your business needs to grow digitally — under one roof." })
       ] }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6", children: services$2.map((s, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 80, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: s.to, className: "group block rounded-2xl p-7 border transition-all hover:shadow-xl hover:scale-[1.02]", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6", children: services$2.map((s, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollReveal, { delay: i * 80, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: s.to, className: "group block rounded-2xl p-6 sm:p-7 border transition-all hover:shadow-xl hover:scale-[1.02] h-full", style: { background: "#FFF8E7", borderColor: "#E5DCC8" }, children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-all group-hover:rotate-6", style: { background: "#1A1A1A" }, children: /* @__PURE__ */ jsxRuntimeExports.jsx(s.icon, { size: 22, style: { color: "#C9A24B" } }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: s.title }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm mb-4", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: s.desc }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "inline-flex items-center gap-1 text-sm font-semibold", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base sm:text-lg font-black mb-2", style: { color: "#000000", fontFamily: "Sora, sans-serif" }, children: s.title }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm mb-4", style: { color: "#6B5F45", fontFamily: "Inter, sans-serif" }, children: s.desc }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "inline-flex items-center gap-1 text-xs sm:text-sm font-semibold", style: { color: "#C9A24B", fontFamily: "Sora, sans-serif" }, children: [
           "Learn More ",
           /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { size: 14 })
         ] })
@@ -11465,6 +11546,7 @@ function Layout() {
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/contact", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ContactPage, {}) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(MobileActionBar, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(WhatsAppButton, {})
   ] });
 }
